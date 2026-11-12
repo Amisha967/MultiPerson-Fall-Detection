@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+fallenv/
+venv/
+.env/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Video and generated files
+*.mp4
+*.avi
+*.mov
+output/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
