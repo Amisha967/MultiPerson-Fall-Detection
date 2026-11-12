@@ -24,3 +24,30 @@ output/
 
 # macOS
 .DS_Store
+
+# Evaluation outputs
+evaluation/results/
+output/
+runs/
+
+# Logs
+*.log
+debug_log.txt
+fall01_log.txt
+
+# Backup and temporary scripts
+*_backup.py
+*_old.py
+*_broken.py
+fix_eval.py
+evaluation_code.txt
+
+# Temporary folders
+snapshot/
+
+# Empty or temporary files
+reference_v2
+pose_analyzer.py
+
+# Nested accidental project copy
+MultiPerson-Fall-Detection/
